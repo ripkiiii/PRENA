@@ -1,0 +1,13 @@
+{
+  "checkpoint": "../model/prena-nano/best.pt",
+  "epoch": 20,
+  "best_val_loss": 2.8762338757514954,
+  "test_in_domain": {
+    "loss": 2.8653101921081543,
+    "perplexity": 17.554497626760973
+  },
+  "test_ood": {
+    "loss": 3.2088039261954173,
+    "perplexity": 24.74946632597655
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "seed": 42,
+  "total_pairs": 748,
+  "core_pairs": 641,
+  "ood_pairs": 107,
+  "splits": {
+    "train": {
+      "n": 513,
+      "categories": {
+        "crisis_communication": 51,
+        "press_release": 240,
+        "media_monitoring": 53,
+        "caption_sosmed": 73,
+        "brand_storytelling": 33,
+        "media_pitch": 42,
+        "influencer_brief": 21
+      },
+      "sources": {
+        "unknown": 316,
+        "antaranews.com": 197
+      }
+    },
+    "val": {
+      "n": 64,
+      "categories": {
+        "media_monitoring": 6,
+        "press_release": 29,
+        "brand_storytelling": 6,
+        "crisis_communication": 7,
+        "media_pitch": 5,
+        "caption_sosmed": 9,
+        "influencer_brief": 2
+      },
+      "sources": {
+        "unknown": 38,
+        "antaranews.com": 26
+      }
+    },
+    "test": {
+      "n": 64,
+      "categories": {
+        "brand_storytelling": 6,
+        "media_monitoring": 9,
+        "press_release": 24,
+        "crisis_communication": 12,
+        "influencer_brief": 2,
+        "caption_sosmed": 8,
+        "media_pitch": 3
+      },
+      "sources": {
+        "unknown": 44,
+        "antaranews.com": 20
+      }
+    },
+    "test_ood": {
+      "n": 107,
+      "categories": {
+        "press_release": 107
+      },
+      "sources": {
+        "liputan6.com": 73,
+        "bisnis.com": 34
+      }
+    }
+  }
+}

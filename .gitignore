@@ -1,0 +1,17 @@
+# Paper draft — personal
+paper/
+
+# Data besar
+*.bin
+*.pt
+*.parquet
+*.arrow
+*.safetensors
+
+# Kaggle upload cache
+kaggle_upload/
+
+# Python
+__pycache__/
+*.pyc
+.env
